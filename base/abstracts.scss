@@ -1,0 +1,30 @@
+//abstracts are your general rules to the website
+
+//Fonts Required
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Tenor+Sans&display=swap');
+
+
+//Variable Sets
+$font-header: 'Tenor Sans', sans-serif;
+$font-body: 'Archivo Narrow', cursive;
+
+//General Styling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  //appling variable
+  font-family: $font-body;
+  color: black;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+p { 
+  font-family: $font-body;
+}

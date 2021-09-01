@@ -1,0 +1,15 @@
+@use "../base/abstracts.scss" as *;
+
+
+
+
+.nav__button {
+  display: inline-block;
+  width: 100px;
+  background-color: #0892D0;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  border: none
+}

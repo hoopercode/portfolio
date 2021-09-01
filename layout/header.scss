@@ -1,0 +1,17 @@
+@use "../base/abstracts" as *;
+
+
+.heading__big {
+  font-family: $font-header;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.heading__small {
+  font-family: $font-body;
+  text-align: center;
+  font-size: 30px;
+}
+
+

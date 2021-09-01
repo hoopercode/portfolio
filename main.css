@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Tenor+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo Narrow", cursive;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Archivo Narrow", cursive;
+}
+
+.navigation {
+  height: auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  min-height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.nav__item {
+  padding-left: 40px;
+  font-size: 25px;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__button {
+  padding-left: 25px;
+}
+
+.heading__big {
+  font-family: "Tenor Sans", sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.heading__small {
+  font-family: "Archivo Narrow", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+.nav__button {
+  display: inline-block;
+  width: 100px;
+  background-color: #0892D0;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+
+.about-me {
+  margin-top: 1000px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.about-me h2 {
+  font-family: "Tenor Sans", sans-serif;
+  margin-bottom: 40px;
+}
+
+body {
+  background-image: url(/portfolio-working/assets/Mountain.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  height: 200px;
+  margin-bottom: -200px;
+}
