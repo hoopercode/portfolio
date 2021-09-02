@@ -20,6 +20,8 @@ $font-body: 'Archivo Narrow', cursive;
 
 }
 
+
+
 a {
   text-decoration: none;
 
@@ -29,3 +31,6 @@ p {
   font-family: $font-body;
 }
 
+h2 {
+  font-family: $font-header;
+}

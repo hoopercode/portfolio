@@ -15,6 +15,10 @@ p {
   font-family: "Archivo Narrow", cursive;
 }
 
+h2 {
+  font-family: "Tenor Sans", sans-serif;
+}
+
 .navigation {
   height: auto;
   padding: 0 40px;
@@ -22,12 +26,9 @@ p {
   justify-content: space-between;
   align-items: center;
   min-height: 40px;
-  background-position: center;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
   /* Needed to position the navbar */
-  position: relative;
+  position: fixed;
+  width: 100%;
 }
 
 .nav__item {
@@ -36,17 +37,23 @@ p {
   display: inline-block;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
 .nav__button {
   padding-left: 25px;
 }
 
+.heading {
+  padding-top: 50px;
+  position: relative;
+  top: 50px;
+}
+
 .heading__big {
   font-family: "Tenor Sans", sans-serif;
   text-align: center;
   font-size: 80px;
-  margin-top: 20px;
 }
 
 .heading__small {
@@ -67,42 +74,29 @@ p {
   border: none;
 }
 
-body {
+.bgsection {
   background-image: url(/portfolio-working/assets/MountainReduced.png);
-  position: absolute;
-  background-position: center;
+  background-position: cover;
   background-position: top;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
 }
 
+.mainbg {
+  background-color: black;
+}
+
 .about-me {
+  position: relative;
+  top: 500px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  margin-top: 1000px;
   text-align: center;
-  background-color: white;
-  height: 1000px;
-}
-
-.about-me h2 {
-  padding-top: 100px;
-  font-size: 60px;
-  font-family: "Tenor Sans", sans-serif;
-  margin-bottom: 40px;
-  width: 800px;
-  text-align: center;
-}
-
-.about-me p {
-  font-size: 30px;
-  width: 800px;
-  line-height: 1.5;
-  text-align: center;
-  margin-top: 40px;
+  background-color: black;
+  height: 500px;
 }
 
 .about-me img {
@@ -110,6 +104,97 @@ body {
   width: auto;
   border-radius: 20%;
   margin-bottom: 40px;
+}
+
+.about-me h2 {
+  padding-top: 100px;
+  color: white;
+  font-size: 60px;
+  font-family: "Tenor Sans", sans-serif;
+  margin-bottom: 40px;
+  width: 800px;
+  text-align: center;
+}
+
+.about-me__blurb {
+  color: white;
+  font-size: 30px;
+  width: 800px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tech-stack {
+  position: relative;
+  top: 1000px;
+  background-color: black;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-stack h2 {
+  padding-top: 100px;
+  color: white;
+  font-size: 60px;
+  font-family: "Tenor Sans", sans-serif;
+  width: 800px;
+  text-align: center;
+}
+
+.tech-stack__blurb {
+  color: white;
+  font-size: 30px;
+  width: 800px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tech-stack-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.my-work {
+  position: relative;
+  top: 1000px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-work h2 {
+  padding-top: 100px;
+  color: white;
+  font-size: 60px;
+  font-family: "Tenor Sans", sans-serif;
+  width: 800px;
+  text-align: center;
+}
+
+.my-work__blurb {
+  color: white;
+  font-size: 30px;
+  width: 800px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.my-work__grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
 }
 
 footer {
