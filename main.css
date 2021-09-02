@@ -85,24 +85,27 @@ h2 {
 
 .mainbg {
   background-color: black;
+  height: 100vh;
 }
 
 footer {
-  position: relative;
+  position: absolute;
+  bottom: 0px;
+}
+
+footer {
+  position: absolute;
   height: 200px;
-  margin-bottom: -200px;
+  margin-bottom: 200px;
 }
 
 .about-me {
-  position: relative;
-  top: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   text-align: center;
   background-color: black;
-  height: 500px;
 }
 
 .about-me img {
@@ -132,10 +135,7 @@ footer {
 }
 
 .tech-stack {
-  position: relative;
-  top: 1000px;
   background-color: black;
-  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,11 +226,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
-  top: 1000px;
-  bottom: 1000px;
   background-color: black;
-  height: 1000px;
 }
 
 .my-work h2 {
@@ -250,4 +246,47 @@ footer {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.form-box {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 430px;
+}
+
+.form-box .header-text {
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.form-box input {
+  margin: 10px 0px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+  font-family: poppins;
+}
+
+.form-box button {
+  background-color: deepskyblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0px;
 }
