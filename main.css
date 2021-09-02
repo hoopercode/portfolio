@@ -21,7 +21,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 200px;
   min-height: 40px;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,8 +44,8 @@ p {
 .heading__big {
   font-family: "Tenor Sans", sans-serif;
   text-align: center;
-  font-size: 90px;
-  margin-top: 400px;
+  font-size: 80px;
+  margin-top: 20px;
 }
 
 .heading__small {
@@ -60,14 +59,15 @@ p {
   width: 100px;
   background-color: #0892D0;
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px;
+  margin-left: 20px;
   border-radius: 10px;
   color: white;
   border: none;
 }
 
 body {
-  background-image: url(/portfolio-working/assets/Mountain.jpg);
+  background-image: url(/portfolio-working/assets/MountainReduced.png);
   position: absolute;
   background-position: center;
   background-position: top;
