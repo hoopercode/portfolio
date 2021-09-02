@@ -23,6 +23,7 @@ p {
   align-items: center;
   min-height: 40px;
   background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   /* Needed to position the navbar */
@@ -77,15 +78,37 @@ body {
 }
 
 .about-me {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
   margin-top: 1000px;
   text-align: center;
   background-color: white;
+  height: 1000px;
 }
 
 .about-me h2 {
-  margin-top: 50px;
-  font-size: 40px;
+  padding-top: 100px;
+  font-size: 60px;
   font-family: "Tenor Sans", sans-serif;
+  margin-bottom: 40px;
+  width: 800px;
+  text-align: center;
+}
+
+.about-me p {
+  font-size: 30px;
+  width: 800px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-me img {
+  height: 300px;
+  width: auto;
+  border-radius: 20%;
   margin-bottom: 40px;
 }
 
