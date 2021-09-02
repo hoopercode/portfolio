@@ -87,9 +87,15 @@ h2 {
   background-color: black;
 }
 
+footer {
+  position: relative;
+  height: 200px;
+  margin-bottom: -200px;
+}
+
 .about-me {
   position: relative;
-  top: 500px;
+  top: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -161,14 +167,70 @@ h2 {
   grid-gap: 15px;
 }
 
-.my-work {
-  position: relative;
-  top: 1000px;
-  background-color: black;
+.work-grid {
+  width: 800px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  height: 100%;
+}
+
+#item-0 {
+  background-image: url(/portfolio-working/assets/laptop.jpg);
+  background-size: cover;
+  background-color: #A9DDAB;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 5;
+  grid-column-end: 4;
+}
+
+#item-1 {
+  background-image: url(/portfolio-working/assets/Work.jpg);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  background-color: #ABBA68;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-row-end: 5;
+  grid-column-end: 6;
+}
+
+#item-2 {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-row-end: 6;
+  grid-column-end: 6;
+}
+
+#item-3 {
+  height: 10px;
+  background-image: url(/portfolio-working/assets/lines-small.png);
+  grid-row-start: 6;
+  grid-column-start: 1;
+  grid-row-end: 7;
+  grid-column-end: 6;
+}
+
+.my-work {
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 1000px;
+  bottom: 1000px;
+  background-color: black;
+  height: 1000px;
 }
 
 .my-work h2 {
@@ -188,17 +250,4 @@ h2 {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
-}
-
-.my-work__grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 15px;
-}
-
-footer {
-  position: relative;
-  height: 200px;
-  margin-bottom: -200px;
 }

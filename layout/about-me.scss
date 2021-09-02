@@ -1,0 +1,40 @@
+@use "../base/abstracts" as *;
+
+.about-me {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  height: 500px;
+}
+
+.about-me img {
+  
+  height: 300px;
+  width: auto;
+  border-radius: 20%;
+  margin-bottom: 40px;
+}
+
+.about-me h2 {
+  padding-top: 100px;
+  color: white;
+  font-size: 60px;
+  font-family: $font-header;
+  margin-bottom: 40px;
+  width: 800px;
+  text-align: center;
+}
+
+.about-me__blurb {
+  color: white;
+  font-size: 30px;
+  width: 800px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 40px;
+}
