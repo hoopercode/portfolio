@@ -8,6 +8,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 150vh;
+
 }
 
 .tech-stack h2 {
@@ -15,13 +16,13 @@
   color: white;
   font-size: 60px;
   font-family: $font-header;
-  width: 800px;
+  width: 33vw;
   text-align: center;
 }
 .tech-stack__blurb {
   color: white;
   font-size: 30px;
-  width: 800px;
+  width: 33vw;
   line-height: 1.5;
   text-align: center;
   margin-top: 40px;
@@ -38,7 +39,7 @@
 
 .work-grid {
   
-  width: 800px;
+  width: 33vw;
   display: grid; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
