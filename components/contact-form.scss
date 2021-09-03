@@ -1,6 +1,18 @@
 @use "../base/abstracts.scss" as *;
-
-
+.contact-me {
+	height: 150vh;
+}
+.contact-me h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 100px;
+  color: white;
+  font-size: 60px;
+  font-family: $font-header;
+  margin-bottom: 40px;
+  text-align: center;	
+}
 .form-box {
 	background-color: rgba(0, 0, 0, 0.5);
 	margin: auto auto;
@@ -20,6 +32,8 @@
 	font-weight: 600;
 	padding-bottom: 30px;
 	text-align: center;
+	color: white;
+	font-weight: bolder;
 }
 .form-box input {
 	margin: 10px 0px;

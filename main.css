@@ -75,8 +75,8 @@ h2 {
 }
 
 .bgsection {
-  background-image: url(/portfolio-working/assets/MountainReduced.png);
-  background-position: cover;
+  background-image: url(/portfolio-working/assets/Mountain.jpg);
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   height: 150vh;
@@ -106,6 +106,7 @@ footer {
   flex-direction: column;
   text-align: center;
   background-color: black;
+  height: 150vh;
 }
 
 .about-me img {
@@ -138,8 +139,9 @@ footer {
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  height: 150vh;
 }
 
 .tech-stack h2 {
@@ -223,10 +225,11 @@ footer {
 
 .my-work {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   background-color: black;
+  height: 150vh;
 }
 
 .my-work h2 {
@@ -248,6 +251,22 @@ footer {
   margin-bottom: 40px;
 }
 
+.contact-me {
+  height: 150vh;
+}
+
+.contact-me h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 60px;
+  font-family: "Tenor Sans", sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 .form-box {
   background-color: rgba(0, 0, 0, 0.5);
   margin: auto auto;
@@ -267,6 +286,8 @@ footer {
   font-weight: 600;
   padding-bottom: 30px;
   text-align: center;
+  color: white;
+  font-weight: bolder;
 }
 
 .form-box input {
