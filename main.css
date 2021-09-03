@@ -19,49 +19,96 @@ h2 {
   font-family: "Tenor Sans", sans-serif;
 }
 
-.navigation {
-  height: auto;
-  padding: 0 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 40px;
-  /* Needed to position the navbar */
-  position: fixed;
-  width: 100%;
-}
+@media only screen and (min-width: 760px) {
+  .navigation {
+    height: auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    /* Needed to position the navbar */
+    position: fixed;
+    width: 100%;
+  }
 
-.nav__item {
-  padding-left: 40px;
-  font-size: 25px;
-  display: inline-block;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-}
+  .nav__item {
+    padding-left: 40px;
+    font-size: 25px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
 
-.nav__button {
-  padding-left: 25px;
+  .nav__button {
+    padding-left: 25px;
+  }
 }
+@media only screen and (max-width: 760px) {
+  .navigation {
+    height: auto;
+    padding: 0 40px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    /* Needed to position the navbar */
+    position: fixed;
+    width: 100%;
+  }
 
-.heading {
-  padding-top: 50px;
-  position: relative;
-  top: 50px;
+  .nav__item {
+    padding-left: 40px;
+    font-size: 25px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+
+  .nav__button {
+    padding-left: 25px;
+  }
 }
+@media only screen and (min-width: 760px) {
+  .heading {
+    padding-top: 50px;
+    position: relative;
+    top: 50px;
+  }
 
-.heading__big {
-  font-family: "Tenor Sans", sans-serif;
-  text-align: center;
-  font-size: 80px;
+  .heading__big {
+    font-family: "Tenor Sans", sans-serif;
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .heading__small {
+    font-family: "Archivo Narrow", cursive;
+    text-align: center;
+    font-size: 50px;
+  }
 }
+@media only screen and (max-width: 760px) {
+  .heading {
+    padding-top: 10px;
+    position: relative;
+    top: 50px;
+  }
 
-.heading__small {
-  font-family: "Archivo Narrow", cursive;
-  text-align: center;
-  font-size: 50px;
+  .heading__big {
+    font-family: "Tenor Sans", sans-serif;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .heading__small {
+    font-family: "Archivo Narrow", cursive;
+    text-align: center;
+    font-size: 20px;
+  }
 }
-
 .nav__button {
   display: inline-block;
   width: 100px;
@@ -74,67 +121,89 @@ h2 {
   border: none;
 }
 
-.bgsection {
-  background-image: url(/portfolio-working/assets/Mountain.jpg);
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 150vh;
-  width: 100%;
-}
+@media only screen and (min-width: 760px) {
+  .bgsection {
+    background-image: url(/portfolio-working/assets/Mountain.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
 
-.mainbg {
-  background-color: black;
-  height: 100vh;
-}
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
 
-footer {
-  position: absolute;
-  bottom: 0px;
+  footer {
+    position: absolute;
+    bottom: 0px;
+  }
 }
+@media only screen and (max-width: 760px) {
+  .bgsection {
+    background-image: url(/portfolio-working/assets/MountainReduced.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
 
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0px;
+  }
+}
 footer {
   position: absolute;
   height: 200px;
   margin-bottom: 200px;
 }
 
-.about-me {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  background-color: black;
-  height: 150vh;
-}
+@media only screen and (max-width: 760px) {
+  .about-me {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
 
-.about-me img {
-  height: 300px;
-  width: auto;
-  border-radius: 20%;
-  margin-bottom: 40px;
-}
+  .about-me img {
+    height: 300px;
+    width: auto;
+    border-radius: 20%;
+    margin-bottom: 40px;
+  }
 
-.about-me h2 {
-  padding-top: 100px;
-  color: white;
-  font-size: 60px;
-  font-family: "Tenor Sans", sans-serif;
-  margin-bottom: 40px;
-  width: 800px;
-  text-align: center;
-}
+  .about-me h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 40px;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 40px;
+    width: 90vw;
+    text-align: center;
+  }
 
-.about-me__blurb {
-  color: white;
-  font-size: 30px;
-  width: 800px;
-  line-height: 1.5;
-  text-align: center;
-  margin-top: 40px;
+  .about-me__blurb {
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+  }
 }
-
 .tech-stack {
   background-color: black;
   display: flex;

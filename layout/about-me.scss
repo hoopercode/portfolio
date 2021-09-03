@@ -1,5 +1,6 @@
 @use "../base/abstracts" as *;
-
+//settings for mobile
+@media only screen and (max-width: 760px) {
 .about-me {
   display: flex;
   justify-content: flex-start;
@@ -20,18 +21,19 @@
 .about-me h2 {
   padding-top: 100px;
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   font-family: $font-header;
   margin-bottom: 40px;
-  width: 800px;
+  width: 90vw;
   text-align: center;
 }
 
 .about-me__blurb {
   color: white;
-  font-size: 30px;
-  width: 800px;
+  font-size: 20px;
+  width: 90vw;
   line-height: 1.5;
   text-align: center;
   margin-top: 40px;
+}
 }
