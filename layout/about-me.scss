@@ -1,39 +1,80 @@
 @use "../base/abstracts" as *;
 //settings for mobile
 @media only screen and (max-width: 760px) {
-.about-me {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  background-color: black;
-  height: 150vh;
+  .about-me {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+
+  .about-me img {
+    height: 300px;
+    width: auto;
+    border-radius: 20%;
+    margin-bottom: 40px;
+  }
+
+  .about-me h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 40px;
+    font-family: $font-header;
+    margin-bottom: 40px;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .about-me__blurb {
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
 }
 
-.about-me img {
-  height: 300px;
-  width: auto;
-  border-radius: 20%;
-  margin-bottom: 40px;
-}
-
-.about-me h2 {
-  padding-top: 100px;
-  color: white;
-  font-size: 40px;
-  font-family: $font-header;
-  margin-bottom: 40px;
-  width: 90vw;
-  text-align: center;
-}
-
-.about-me__blurb {
-  color: white;
-  font-size: 20px;
-  width: 90vw;
-  line-height: 1.5;
-  text-align: center;
-  margin-top: 40px;
-}
+@media only screen and (min-width: 760px) {
+//Settings for desktop below
+  .about-me {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+  
+  .about-me img {
+    height: 300px;
+    width: auto;
+    border-radius: 20%;
+    margin-bottom: 40px;
+  }
+  
+  .about-me h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 60px;
+    font-family: $font-header;
+    margin-bottom: 40px;
+    width: 40vw;
+    text-align: center;
+  }
+  
+  .about-me__blurb {
+    color: white;
+    font-size: 30px;
+    width: 800px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+  }
 }

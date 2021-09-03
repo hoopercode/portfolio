@@ -1,6 +1,9 @@
 @use "../base/abstracts.scss" as *;
+
+//settings for mobile
+@media only screen and (max-width: 760px) {
 .contact-me {
-	height: 150vh;
+	margin-top: 50vh;
 }
 .contact-me h2 {
 	display: flex;
@@ -8,7 +11,7 @@
 	justify-content: center;
 	padding-top: 100px;
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   font-family: $font-header;
   margin-bottom: 40px;
   text-align: center;	
@@ -57,3 +60,68 @@
 	padding: 10px;
 	margin: 20px 0px;
 }
+
+}
+
+//settings for desktop
+@media only screen and (min-width: 760px) {
+	.contact-me {
+		height: 150vh;
+	}
+	.contact-me h2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 100px;
+		color: white;
+		font-size: 60px;
+		font-family: $font-header;
+		margin-bottom: 40px;
+		text-align: center;	
+	}
+	.form-box {
+		background-color: rgba(0, 0, 0, 0.5);
+		margin: auto auto;
+		padding: 40px;
+		border-radius: 5px;
+		box-shadow: 0 0 10px #000;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 500px;
+		height: 430px;
+	}
+	
+	.form-box .header-text {
+		font-size: 32px;
+		font-weight: 600;
+		padding-bottom: 30px;
+		text-align: center;
+		color: white;
+		font-weight: bolder;
+	}
+	.form-box input {
+		margin: 10px 0px;
+		border: none;
+		padding: 10px;
+		border-radius: 5px;
+		width: 100%;
+		font-size: 18px;
+		font-family: poppins;
+	}
+	
+	
+	.form-box button {
+		background-color: deepskyblue;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 100%;
+		font-size: 18px;
+		padding: 10px;
+		margin: 20px 0px;
+	}
+	
+	}

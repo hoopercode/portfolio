@@ -1,28 +1,49 @@
 @use "../base/abstracts" as *;
-
+//desktop
 @media only screen and (min-width: 760px) {
-.bgsection {
-  background-image: url(/portfolio-working/assets/Mountain.jpg);
-  background-size:cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 150vh;
-  width: 100%;
+  .bgsection {
+    background-image: url(/portfolio-working/assets/Mountain.jpg);
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
+
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
+
+
+  footer {
+      position: absolute;
+      bottom: 0px;
+
+  }
+
+  .scroll-down {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+  .scroll-down img {
+
+    height: auto;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+
+    
+
 }
-
-.mainbg {
-  background-color: black;
-  height: 100vh;
-}
-
-
-footer {
-    position: absolute;
-    bottom: 0px;
-
-}
-}
-
+//mobile
 @media only screen and (max-width: 760px) {
 
   .bgsection {
@@ -44,5 +65,13 @@ footer {
       position: absolute;
       bottom: 0px;
   
+      
+  }
+
+  .scroll-down img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
   }
