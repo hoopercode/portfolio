@@ -1,21 +1,116 @@
 @use "../base/abstracts" as *;
-.bgsection {
-  background-image: url(/portfolio-working/assets/Mountain.jpg);
-  background-size:cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 150vh;
-  width: 100%;
-}
 
-.mainbg {
-  background-color: black;
-  height: 100vh;
-}
+//----------------------------------------------------------------------------------------------//
+//settings for mobile
+@media screen and (max-width: 480px) {
+
+  .bgsection {
+    background-image: url(/portfolio-working/assets/MountainReduced.png);
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
+  
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
+  
+  
+  footer {
+      position: absolute;
+      bottom: 0px;
+  
+      
+  }
+
+  .scroll-down img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  }
+
+//----------------------------------------------------------------------------------------------//
+//settings for ipad
+
+@media screen and (min-width: 480px) {
+
+  .bgsection {
+    background-image: url(/portfolio-working/assets/MountainReduced.png);
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
+  
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
+  
+  
+  footer {
+      position: absolute;
+      bottom: 0px;
+  
+      
+  }
+
+  .scroll-down img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  }
+
+//----------------------------------------------------------------------------------------------//
+//settings for laptop
+@media screen and (min-width: 768px) {
+  .bgsection {
+    background-image: url(/portfolio-working/assets/Mountain.jpg);
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
+
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
 
 
-footer {
-    position: absolute;
-    bottom: 0px;
+  footer {
+      position: absolute;
+      bottom: 0px;
+
+  }
+
+  .scroll-down {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+  .scroll-down img {
+
+    height: auto;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+
+    
 
 }
