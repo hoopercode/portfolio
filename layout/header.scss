@@ -1,28 +1,7 @@
 @use "../base/abstracts" as *;
-//desktop
-@media only screen and (min-width: 760px) {
-.heading {
-  padding-top: 50px;
-  position: relative;
-  top: 50px;
-}
-
-.heading__big {
-  font-family: $font-header;
-  text-align: center;
-  font-size:80px;
-
-}
-
-.heading__small {
-  font-family: $font-body;
-  text-align: center;
-  font-size: 50px;
-}
-
-}
-//mobile
-@media only screen and (max-width: 760px) {
+//----------------------------------------------------------------------------------------------//
+//settings for mobile
+@media only screen and (max-width: 480px) {
   .heading {
     padding-top: 10px;
     position: relative;
@@ -43,3 +22,36 @@
   }
   
   }
+//----------------------------------------------------------------------------------------------//
+//settings for ipad
+@media only screen and (min-width: 480px) {
+
+
+
+
+  
+}
+
+//----------------------------------------------------------------------------------------------//
+//settings for desktop
+@media only screen and (min-width: 768px) {
+.heading {
+  padding-top: 50px;
+  position: relative;
+  top: 50px;
+}
+
+.heading__big {
+  font-family: $font-header;
+  text-align: center;
+  font-size:80px;
+
+}
+
+.heading__small {
+  font-family: $font-body;
+  text-align: center;
+  font-size: 50px;
+}
+
+}

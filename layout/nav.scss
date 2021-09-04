@@ -1,6 +1,53 @@
 @use "../base/abstracts" as *;
-//desktop
-@media only screen and (min-width: 760px) {
+//----------------------------------------------------------------------------------------------//
+//settings for mobile
+@media only screen and (max-width: 480px) {
+
+
+  .navigation {
+
+    height: auto;
+    padding: 0 40px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    // margin-bottom: 100px;
+    min-height: 40px;
+    /* Needed to position the navbar */
+    position: fixed;
+    width: 100%;
+  }
+  //Getting navigation to stay fixed or sticky
+
+
+  .nav__item {
+    padding-left:40px;
+    font-size: 25px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  
+  }
+
+  .nav__button {
+    padding-left: 25px;
+
+  }
+
+}
+//----------------------------------------------------------------------------------------------//
+//settings for ipad
+
+@media only screen and (min-width: 480px) {
+
+}
+
+
+
+//----------------------------------------------------------------------------------------------//
+//settings for desktop
+@media only screen and (min-width: 768px) {
 
 
   .navigation {
@@ -23,42 +70,6 @@
     padding-left:40px;
     font-size: 25px;
     display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-  
-  }
-
-  .nav__button {
-    padding-left: 25px;
-
-  }
-
-}
-//mobile
-@media only screen and (max-width: 760px) {
-
-
-  .navigation {
-
-    height: auto;
-    padding: 0 40px;
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    // margin-bottom: 100px;
-    min-height: 40px;
-    /* Needed to position the navbar */
-    position: fixed;
-    width: 100%;
-  }
-  //Getting navigation to stay fixed or sticky
-
-
-  .nav__item {
-    padding-left:40px;
-    font-size: 25px;
-    display: none;
     justify-content: space-between;
     align-items: center;
     color: white;

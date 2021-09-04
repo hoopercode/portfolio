@@ -19,7 +19,33 @@ h2 {
   font-family: "Tenor Sans", sans-serif;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 480px) {
+  .navigation {
+    height: auto;
+    padding: 0 40px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    /* Needed to position the navbar */
+    position: fixed;
+    width: 100%;
+  }
+
+  .nav__item {
+    padding-left: 40px;
+    font-size: 25px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+
+  .nav__button {
+    padding-left: 25px;
+  }
+}
+@media only screen and (min-width: 768px) {
   .navigation {
     height: auto;
     padding: 0 40px;
@@ -45,52 +71,7 @@ h2 {
     padding-left: 25px;
   }
 }
-@media only screen and (max-width: 760px) {
-  .navigation {
-    height: auto;
-    padding: 0 40px;
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 40px;
-    /* Needed to position the navbar */
-    position: fixed;
-    width: 100%;
-  }
-
-  .nav__item {
-    padding-left: 40px;
-    font-size: 25px;
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-  }
-
-  .nav__button {
-    padding-left: 25px;
-  }
-}
-@media only screen and (min-width: 760px) {
-  .heading {
-    padding-top: 50px;
-    position: relative;
-    top: 50px;
-  }
-
-  .heading__big {
-    font-family: "Tenor Sans", sans-serif;
-    text-align: center;
-    font-size: 80px;
-  }
-
-  .heading__small {
-    font-family: "Archivo Narrow", cursive;
-    text-align: center;
-    font-size: 50px;
-  }
-}
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 480px) {
   .heading {
     padding-top: 10px;
     position: relative;
@@ -109,19 +90,104 @@ h2 {
     font-size: 20px;
   }
 }
-.nav__button {
-  display: inline-block;
-  width: 100px;
-  background-color: #0892D0;
-  text-align: center;
-  padding: 10px;
-  margin-left: 20px;
-  border-radius: 10px;
-  color: white;
-  border: none;
-}
+@media only screen and (min-width: 768px) {
+  .heading {
+    padding-top: 50px;
+    position: relative;
+    top: 50px;
+  }
 
-@media only screen and (min-width: 760px) {
+  .heading__big {
+    font-family: "Tenor Sans", sans-serif;
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .heading__small {
+    font-family: "Archivo Narrow", cursive;
+    text-align: center;
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .nav__button {
+    display: none;
+    width: 100px;
+    background-color: #0892D0;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .nav__button {
+    display: inline-block;
+    width: 100px;
+    background-color: #0892D0;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .bgsection {
+    background-image: url(/portfolio-working/assets/MountainReduced.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
+
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .scroll-down img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .bgsection {
+    background-image: url(/portfolio-working/assets/MountainReduced.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
+
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .scroll-down img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 768px) {
   .bgsection {
     background-image: url(/portfolio-working/assets/Mountain.jpg);
     background-size: cover;
@@ -155,39 +221,13 @@ h2 {
     align-content: center;
   }
 }
-@media only screen and (max-width: 760px) {
-  .bgsection {
-    background-image: url(/portfolio-working/assets/MountainReduced.png);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    height: 150vh;
-    width: 100%;
-  }
-
-  .mainbg {
-    background-color: black;
-    height: 100vh;
-  }
-
-  footer {
-    position: absolute;
-    bottom: 0px;
-  }
-
-  .scroll-down img {
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 footer {
   position: absolute;
   height: 200px;
   margin-bottom: 200px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 480px) {
   .about-me {
     display: flex;
     justify-content: flex-start;
@@ -225,7 +265,45 @@ footer {
     margin-bottom: 40px;
   }
 }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .about-me {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+
+  .about-me img {
+    height: 300px;
+    width: auto;
+    border-radius: 20%;
+    margin-bottom: 40px;
+  }
+
+  .about-me h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 40px;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 40px;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .about-me__blurb {
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
   .about-me {
     display: flex;
     justify-content: flex-start;
@@ -263,7 +341,7 @@ footer {
   }
 }
 /* settings for mobile below */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 480px) {
   .tech-stack {
     background-color: black;
     display: flex;
@@ -354,7 +432,7 @@ footer {
     grid-column-end: 6;
   }
 }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
   .tech-stack {
     background-color: black;
     display: flex;
@@ -390,14 +468,14 @@ footer {
   }
 }
 /* settings for mobile below */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 480px) {
   .my-work {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     background-color: black;
-    height: 800px;
+    height: 150vh;
   }
 
   .my-work h2 {
@@ -434,7 +512,7 @@ footer {
 
   .one img {
     object-fit: cover;
-    height: 100%;
+    height: 80%;
     max-width: 100%;
   }
 
@@ -444,7 +522,7 @@ footer {
 
   .two img {
     object-fit: cover;
-    height: 100%;
+    height: 80%;
     max-width: 100%;
   }
 
@@ -460,14 +538,14 @@ footer {
     border: 2px white solid;
   }
 }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
   .my-work {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     background-color: black;
-    height: 800px;
+    height: 150vh;
   }
 
   .my-work h2 {
@@ -532,11 +610,7 @@ footer {
     width: 800px;
   }
 }
-@media only screen and (max-width: 760px) {
-  .contact-me {
-    margin-top: 50vh;
-  }
-
+@media only screen and (max-width: 480px) {
   .contact-me h2 {
     display: flex;
     align-items: center;
@@ -594,7 +668,7 @@ footer {
     margin: 20px 0px;
   }
 }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
   .contact-me {
     height: 150vh;
   }

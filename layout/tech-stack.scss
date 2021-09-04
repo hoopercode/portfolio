@@ -1,6 +1,7 @@
 @use "../base/abstracts" as *;
-/* settings for mobile below */
-@media only screen and (max-width: 760px) {
+//----------------------------------------------------------------------------------------------//
+//settings for mobile
+@media only screen and (max-width: 480px) {
   .tech-stack {
     background-color: black;
     display: flex;
@@ -97,8 +98,18 @@
     }
   
   }  
-@media only screen and (min-width: 760px) {
-//Settings for laptop below
+
+//----------------------------------------------------------------------------------------------//
+//settings for ipad
+
+@media only screen and (min-width: 480px) {
+
+}
+
+//----------------------------------------------------------------------------------------------//
+//settings for laptop
+@media only screen and (min-width: 768px) {
+
 .tech-stack {
   background-color: black;
   display: flex;

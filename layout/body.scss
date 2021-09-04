@@ -1,6 +1,77 @@
 @use "../base/abstracts" as *;
-//desktop
-@media only screen and (min-width: 760px) {
+
+//----------------------------------------------------------------------------------------------//
+//settings for mobile
+@media only screen and (max-width: 480px) {
+
+  .bgsection {
+    background-image: url(/portfolio-working/assets/MountainReduced.png);
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
+  
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
+  
+  
+  footer {
+      position: absolute;
+      bottom: 0px;
+  
+      
+  }
+
+  .scroll-down img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  }
+
+//----------------------------------------------------------------------------------------------//
+//settings for ipad
+
+@media only screen and (min-width: 480px) {
+
+  .bgsection {
+    background-image: url(/portfolio-working/assets/MountainReduced.png);
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+  }
+  
+  .mainbg {
+    background-color: black;
+    height: 100vh;
+  }
+  
+  
+  footer {
+      position: absolute;
+      bottom: 0px;
+  
+      
+  }
+
+  .scroll-down img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  }
+
+//----------------------------------------------------------------------------------------------//
+//settings for laptop
+@media only screen and (min-width: 768px) {
   .bgsection {
     background-image: url(/portfolio-working/assets/Mountain.jpg);
     background-size:cover;
@@ -43,35 +114,3 @@
     
 
 }
-//mobile
-@media only screen and (max-width: 760px) {
-
-  .bgsection {
-    background-image: url(/portfolio-working/assets/MountainReduced.png);
-    background-size:cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    height: 150vh;
-    width: 100%;
-  }
-  
-  .mainbg {
-    background-color: black;
-    height: 100vh;
-  }
-  
-  
-  footer {
-      position: absolute;
-      bottom: 0px;
-  
-      
-  }
-
-  .scroll-down img {
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-  }
