@@ -8,7 +8,7 @@
     align-items: center;
     flex-direction: column;
     background-color: black;
-    height: 150vh;
+    height: 110vh;
 
   }
 
@@ -25,7 +25,7 @@
 
   .my-work__blurb {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     width: 90vw;
     line-height: 1.5;
     text-align: center;
@@ -41,6 +41,7 @@
     grid-auto-rows: auto;
     gap: 10px 10px;
     grid-auto-flow: row;
+    width: 90vw;
   }
   
   .one { 
@@ -74,6 +75,14 @@
     
        }
 
+    .four { grid-area: 3 / 1 / 4 / 3; }
+
+    .four img {
+      object-fit: scale-down;
+      height: 100%;
+      max-width: 100%;
+      padding-top: 10px;
+    }
 
 //----------------------------------------------------------------------------------------------//
 //settings for ipad
@@ -103,7 +112,7 @@
   .my-work h2 {
     padding-top: 100px;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     font-family: $font-header;
     width: 90vw;
     text-align: center;
@@ -114,7 +123,7 @@
   .my-work__blurb {
     color: white;
     font-size: 20px;
-    width: 90vw;
+    width: 55vw;
     line-height: 1.5;
     text-align: center;
     margin-top: 40px;
@@ -122,16 +131,27 @@
   }
 
 
+  // .work-grid {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr;
+  //   grid-template-rows: 1.2fr 0.5fr;
+  //   grid-auto-rows: 1fr;
+  //   gap: 10px 10px;
+  //   grid-auto-flow: row;
+  //   width: 55vw;
+  // }
   .work-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1.2fr 0.5fr;
-    grid-auto-rows: 1fr;
+    grid-template-rows:max-content;
+    grid-auto-rows: auto;
     gap: 10px 10px;
     grid-auto-flow: row;
-    width: 800px;
+    width: 55vw;
+
   }
-  
+
+
   .one { 
     grid-area: 1 / 1 / 2 / 2;
     

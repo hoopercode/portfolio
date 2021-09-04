@@ -62,35 +62,38 @@
 	margin: 20px 0px;
 }
 
-
 //settings for desktop
 @media screen and (min-width: 768px) {
 	.contact-me {
 		height: 150vh;
+	
+		
 	}
 	.contact-me h2 {
 		display: flex;
 		align-items: center;
+		flex-direction: column;
 		justify-content: center;
 		padding-top: 100px;
 		color: white;
 		font-size: 60px;
 		font-family: $font-header;
-		margin-bottom: 40px;
-		text-align: center;	
+		// margin-bottom: 40px;
+		text-align: center;
+		width: 55vw;	
 	}
 	.form-box {
 		background-color: rgba(0, 0, 0, 0.5);
 		margin: auto auto;
-		padding: 40px;
+		// padding: 40px;
 		border-radius: 5px;
 		box-shadow: 0 0 10px #000;
 		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		width: 500px;
-		height: 430px;
+		// bottom: 0;
+		// left: 0;
+		// right: 0;
+		width: 55vw;
+		height: auto;
 	}
 	
 	.form-box .header-text {

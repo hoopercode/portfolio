@@ -180,7 +180,7 @@ h2 {
   .bgsection {
     background-image: url(/portfolio-working/assets/MountainReduced.png);
     background-size: cover;
-    background-position: top;
+    background-position: 48% 0%;
     background-repeat: no-repeat;
     height: 150vh;
     width: 100%;
@@ -206,7 +206,7 @@ h2 {
   .bgsection {
     background-image: url(/portfolio-working/assets/MountainReduced.png);
     background-size: cover;
-    background-position: top;
+    background-position: 49% 0%;
     background-repeat: no-repeat;
     height: 150vh;
     width: 100%;
@@ -232,7 +232,7 @@ h2 {
   .bgsection {
     background-image: url(/portfolio-working/assets/Mountain.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: 48% 0%;
     background-repeat: no-repeat;
     height: 150vh;
     width: 100%;
@@ -355,7 +355,7 @@ footer {
   }
 
   .about-me img {
-    height: 300px;
+    height: 38vh;
     width: auto;
     border-radius: 20%;
     margin-bottom: 40px;
@@ -367,14 +367,14 @@ footer {
     font-size: 60px;
     font-family: "Tenor Sans", sans-serif;
     margin-bottom: 40px;
-    width: 40vw;
+    width: 55vw;
     text-align: center;
   }
 
   .about-me__blurb {
     color: white;
     font-size: 30px;
-    width: 800px;
+    width: 55vw;
     line-height: 1.5;
     text-align: center;
     margin-top: 40px;
@@ -386,7 +386,7 @@ footer {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 150vh;
+  height: 100vh;
 }
 
 .tech-stack h2 {
@@ -436,14 +436,14 @@ footer {
     color: white;
     font-size: 60px;
     font-family: "Tenor Sans", sans-serif;
-    width: 33vw;
+    width: 55vw;
     text-align: center;
   }
 
   .tech-stack__blurb {
     color: white;
     font-size: 30px;
-    width: 33vw;
+    width: 55vw;
     line-height: 1.5;
     text-align: center;
     margin-top: 40px;
@@ -451,9 +451,15 @@ footer {
   }
 
   .tech-stack-gallery {
+    width: 55vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 15px;
+  }
+
+  .tech-stack-gallery__image {
+    width: 10vw;
+    height: auto;
   }
 }
 .my-work {
@@ -462,7 +468,7 @@ footer {
   align-items: center;
   flex-direction: column;
   background-color: black;
-  height: 150vh;
+  height: 110vh;
 }
 
 .my-work h2 {
@@ -476,7 +482,7 @@ footer {
 
 .my-work__blurb {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   width: 90vw;
   line-height: 1.5;
   text-align: center;
@@ -491,6 +497,7 @@ footer {
   grid-auto-rows: auto;
   gap: 10px 10px;
   grid-auto-flow: row;
+  width: 90vw;
 }
 
 .one {
@@ -525,6 +532,17 @@ footer {
   border: 2px white solid;
 }
 
+.four {
+  grid-area: 3/1/4/3;
+}
+
+.four img {
+  object-fit: scale-down;
+  height: 100%;
+  max-width: 100%;
+  padding-top: 10px;
+}
+
 @media screen and (min-width: 768px) {
   .my-work {
     display: flex;
@@ -538,7 +556,7 @@ footer {
   .my-work h2 {
     padding-top: 100px;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     font-family: "Tenor Sans", sans-serif;
     width: 90vw;
     text-align: center;
@@ -547,7 +565,7 @@ footer {
   .my-work__blurb {
     color: white;
     font-size: 20px;
-    width: 90vw;
+    width: 55vw;
     line-height: 1.5;
     text-align: center;
     margin-top: 40px;
@@ -557,11 +575,11 @@ footer {
   .work-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1.2fr 0.5fr;
-    grid-auto-rows: 1fr;
+    grid-template-rows: max-content;
+    grid-auto-rows: auto;
     gap: 10px 10px;
     grid-auto-flow: row;
-    width: 800px;
+    width: 55vw;
   }
 
   .one {
@@ -658,6 +676,11 @@ footer {
   margin: 20px 0px;
 }
 
+.form-box .input .textarea {
+  height: 20vh;
+  width: auto;
+}
+
 @media screen and (min-width: 768px) {
   .contact-me {
     height: 150vh;
@@ -666,27 +689,24 @@ footer {
   .contact-me h2 {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     padding-top: 100px;
     color: white;
     font-size: 60px;
     font-family: "Tenor Sans", sans-serif;
-    margin-bottom: 40px;
     text-align: center;
+    width: 55vw;
   }
 
   .form-box {
     background-color: rgba(0, 0, 0, 0.5);
     margin: auto auto;
-    padding: 40px;
     border-radius: 5px;
     box-shadow: 0 0 10px #000;
     top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 500px;
-    height: 430px;
+    width: 55vw;
+    height: auto;
   }
 
   .form-box .header-text {
