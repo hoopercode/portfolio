@@ -416,58 +416,9 @@ footer {
   grid-template-rows: auto;
 }
 
-.work-grid {
-  width: 90vw;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 15px;
-  height: 100%;
-}
-
-#item-0 {
-  background-image: url(/portfolio-working/assets/laptop.jpg);
-  background-size: cover;
-  background-color: #A9DDAB;
-  grid-row-start: 1;
-  grid-column-start: 1;
-  grid-row-end: 5;
-  grid-column-end: 4;
-}
-
-#item-1 {
-  background-image: url(/portfolio-working/assets/Work.jpg);
-  background-size: cover;
-  align-items: center;
-  justify-content: center;
-  background-color: #ABBA68;
-  grid-row-start: 1;
-  grid-column-start: 4;
-  grid-row-end: 5;
-  grid-column-end: 6;
-}
-
-#item-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  grid-row-start: 5;
-  grid-column-start: 1;
-  grid-row-end: 6;
-  grid-column-end: 6;
-}
-
-#item-3 {
-  height: 10px;
-  background-image: url(/portfolio-working/assets/lines-small.png);
-  grid-row-start: 6;
-  grid-column-start: 1;
-  grid-row-end: 7;
-  grid-column-end: 6;
+.tech-stack-gallery__image {
+  width: 15vw;
+  height: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -663,6 +614,8 @@ footer {
 }
 
 .form-box {
+  width: 90vw;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.5);
   margin: auto auto;
   padding: 40px;
@@ -672,8 +625,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 500px;
-  height: 430px;
 }
 
 .form-box .header-text {
