@@ -1,7 +1,7 @@
 @use "../base/abstracts" as *;
 //----------------------------------------------------------------------------------------------//
 //settings for mobile
-@media only screen and (max-width: 480px) {
+
   .tech-stack {
     background-color: black;
     display: flex;
@@ -14,7 +14,7 @@
   .tech-stack h2 {
     padding-top: 100px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-family: $font-header;
     width: 90vw;
     text-align: center;
@@ -96,19 +96,18 @@
     grid-column-end: 6;
     
     }
-  
-  }  
+
 
 //----------------------------------------------------------------------------------------------//
 //settings for ipad
 
-@media only screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
 
 }
 
 //----------------------------------------------------------------------------------------------//
 //settings for laptop
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 .tech-stack {
   background-color: black;

@@ -1,9 +1,6 @@
 @use "../base/abstracts" as *;
 //----------------------------------------------------------------------------------------------//
 //settings for mobile
-@media only screen and (max-width: 480px) 
-{
-
   .my-work {
 
     display: flex;
@@ -18,7 +15,7 @@
   .my-work h2 {
     padding-top: 100px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-family: $font-header;
     width: 90vw;
     text-align: center;
@@ -40,8 +37,8 @@
   .work-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1.2fr 0.5fr;
-    grid-auto-rows: 1fr;
+    grid-template-rows:max-content;
+    grid-auto-rows: auto;
     gap: 10px 10px;
     grid-auto-flow: row;
   }
@@ -53,14 +50,14 @@
 
   .one img {
     object-fit: cover;
-    height: 80%;
+    height: 100%;
     max-width: 100%;
   }
   .two { grid-area: 1 / 2 / 2 / 3; }
 
   .two img {
     object-fit: cover;
-    height: 80%;
+    height: 100%;
     max-width: 100%;
   }
   
@@ -77,11 +74,11 @@
     
        }
 
-}
+
 //----------------------------------------------------------------------------------------------//
 //settings for ipad
 
-@media only screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
 
 
 }
@@ -89,7 +86,7 @@
 
 //----------------------------------------------------------------------------------------------//
 //settings for laptop
-@media only screen and (min-width: 768px) 
+@media screen and (min-width: 768px) 
 {
 
   .my-work {

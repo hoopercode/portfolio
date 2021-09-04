@@ -2,7 +2,6 @@
 
 //----------------------------------------------------------------------------------------------//
 //settings for mobile
-@media only screen and (max-width: 480px) {
   .about-me {
     display: flex;
     justify-content: flex-start;
@@ -23,7 +22,7 @@
   .about-me h2 {
     padding-top: 100px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-family: $font-header;
     margin-bottom: 40px;
     width: 90vw;
@@ -40,12 +39,11 @@
     margin-bottom: 40px;
   }
 
-}
 
 //----------------------------------------------------------------------------------------------//
 //settings for ipad
 
-@media only screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
 
   .about-me {
     display: flex;
@@ -90,7 +88,7 @@
 
 //----------------------------------------------------------------------------------------------//
 //settings for laptop
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   
   .about-me {
     display: flex;
