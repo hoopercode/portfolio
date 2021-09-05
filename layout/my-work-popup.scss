@@ -1,0 +1,186 @@
+@use "../base/abstracts" as *;
+
+//----------------------------------------------------------------------------------------------//
+//settings for mobile
+@media screen and (max-width: 480px) {
+  
+  body {
+    background-color: black;
+  }
+
+
+  .project_blurb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+  .bgpopup {
+    background: black;
+    height: 150vh;
+    width: 100%;
+  }
+  .bgpopup_img {
+    width: 100vw;
+    opacity: 0.5;
+  }
+
+  
+  
+  .project_blurb_button {
+		background-color: deepskyblue;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 33vw;
+		font-size: 18px;
+		padding: 10px;
+		margin: 20px 0px;
+	}
+
+  .project_blurb_h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: $font-header;
+    margin-bottom: 40px;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .project_blurb_p {
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+//----------------------------------------------------------------------------------------------//
+//settings for ipad
+
+@media screen and (min-width: 480px) {
+
+  body {
+    background-color: black;
+  }
+  .project_blurb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+  .bgpopup {
+    background: black;
+    height: 150vh;
+    width: 100%;
+  }
+  .bgpopup_img {
+    width: 100vw;
+    opacity: 0.5;
+  }
+  
+  .project_blurb_button {
+		background-color: deepskyblue;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 33vw;
+		font-size: 18px;
+		padding: 10px;
+		margin: 20px 0px;
+	}
+
+  .project_blurb_h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: $font-header;
+    margin-bottom: 40px;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .project_blurb_p {
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+
+
+//----------------------------------------------------------------------------------------------//
+//settings for laptop
+@media screen and (min-width: 768px) {
+
+  body {
+    background-color: black;
+  }
+
+  .project_blurb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+  .bgpopup {
+    background: black;
+    height: 150vh;
+    width: 100%;
+    opacity: 0.5;
+  }
+  .bgpopup_img {
+    width: 100vw;
+  }
+  .project_blurb_button {
+		background-color: deepskyblue;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 33vw;
+		font-size: 18px;
+		padding: 10px;
+		margin: 20px 0px;
+	}
+
+  .project_blurb_h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: $font-header;
+    margin-bottom: 40px;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .project_blurb_p {
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+}
