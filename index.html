@@ -11,10 +11,10 @@
   <nav class="navigation">
       <img src="./assets/Logo.png" alt="logo">
         <div class="nav">
-        <a class="nav__item" href="">About Me</a>
-        <a class="nav__item" href="#">My Skills</a>
-        <a class="nav__item" href="#">My Work</a>
-        <a class="nav__item nav__button" href="">Contact</a>
+        <a class="nav__item" href="#about-me">About Me</a>
+        <a class="nav__item" href="#tech-stack">My Skills</a>
+        <a class="nav__item" href="#my-work">My Work</a>
+        <a class="nav__item nav__button" href="#contact-me">Contact</a>
       </div>
   </nav>
 
@@ -26,13 +26,13 @@
 
 </section>
 <section class="mainbg about-me">
-      <h2>About Me</h2>
+      <h2 id="about-me">About Me</h2>
       <img src="./assets/linkedin.jpeg" alt="">
       <p class="about-me__blurb">A junior developer from New Zealand! I was attracted to the career after spending many years teaching introductory web development in high schools across New Zealand.  I am currently completing a Software Development course with _Nology.  This course is designed for students to gain a hands-on experience of coding in multiple programming languages, frameworks and tools that are in high-demand in The United Kingdom right now.</p>
 </section>
 
 <section class="mainbg tech-stack">
-      <h2>Tech Stack</h2>
+      <h2 id="tech-stack">Tech Stack</h2>
       <p class="tech-stack__blurb">This is where I display what skills I am able to confidently use</p>
 
       <div class="tech-stack-gallery">
@@ -48,16 +48,14 @@
 
 </section>
 <section class="mainbg my-work">
-    <h2>My Work</h2>
-    <p class="my-work__blurb">This is where I display what work I have been working on</p>
+    <h2 id="my-work">My Work</h2>
+    <p class="my-work__blurb">This is where I display what work I have been working on.  Clicking on images will open new tab to view full work.</p>
     
     <div class="work-grid">
       <div class="one"><img src="/portfolio-working/assets/screen-large.jpg" alt=""></div>
       <div class="two"><img src="/portfolio-working/assets/screen2-large.jpg" alt=""></div>
       <div class="three">
-        <p>This is where I describe the project.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, fugit dolorem harum libero quasi eos repellat itaque animi natus tempore.
-
-        Insert line scroller below!!!
+        <p>Brief description of project.  Possibly look at including logo vectors of each project beneath.
         </p>
       </div>
       <div class="four"><img src="/portfolio-working/assets/lines-small.png" alt=""></div>
@@ -65,11 +63,11 @@
 </section>
 
 <section class="mainbg contact-me">
-  <h2>Contact Me</h2>
+  <h2 id="contact-me">Contact Me</h2>
     <div class="form-box">
         <input placeholder="Your Name" type="text">
         <input placeholder="Your Email" type="text">
-        <input placeholder="Message"textarea">
+        <input class="text-space" placeholder="Message - Need to make this bigger"textarea">
         <button>Send</button>
       </div>
     </div>

@@ -49,8 +49,48 @@
 //settings for ipad
 
 @media screen and (min-width: 480px) {
-
+  .tech-stack {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 150vh;
+  
+  }
+  
+  .tech-stack h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 40px;
+    font-family: $font-header;
+    width: 80vw;
+    text-align: center;
+  }
+  .tech-stack__blurb {
+    color: white;
+    font-size: 25px;
+    width: 80vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .tech-stack-gallery {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 12px;
+  }
+  
+  .tech-stack-gallery__image {
+    width: 15vw;
+    height: auto;
+  }
 }
+
 
 //----------------------------------------------------------------------------------------------//
 //settings for laptop
@@ -93,7 +133,7 @@
 }
 
 .tech-stack-gallery__image {
-  width: 10vw;
+  width: 8vw;
   height: auto;
 }
 }
