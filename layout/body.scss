@@ -14,7 +14,12 @@
   }
   
   .mainbg {
-    background-color: black;
+    background: black;
+    height: 100vh;
+  }
+
+  .blendbg {
+    background: linear-gradient(#01150E, #000000);
     height: 100vh;
   }
   
@@ -26,8 +31,8 @@
       
   }
 
-  .scroll-down img {
-    display: none;
+  .scroll-arrows img {
+
     margin-left: auto;
     margin-right: auto;
     
@@ -49,7 +54,12 @@
   }
   
   .mainbg {
-    background-color: black;
+    background: black;
+    height: 100vh;
+  }
+
+  .blendbg {
+    background: linear-gradient(#01150E, #000000);
     height: 100vh;
   }
   
@@ -82,7 +92,12 @@
   }
 
   .mainbg {
-    background-color: black;
+    background: black;
+    height: 100vh;
+  }
+
+  .blendbg {
+    background: linear-gradient(#01150E, #000000);
     height: 100vh;
   }
 
@@ -93,22 +108,14 @@
 
   }
 
-  .scroll-down {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
-  }
-
-  .scroll-down img {
-
+  .scroll-arrows {
+    width: 7vw;
     height: auto;
-    width: 10vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    margin-bottom: 2vh;
+    margin-top: 13vh;
     
   }
+
 
 
     
