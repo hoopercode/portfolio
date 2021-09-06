@@ -820,6 +820,10 @@ footer {
     text-align: center;
   }
 
+  a .contact-me__email {
+    color: white;
+  }
+
   .form-box {
     background-color: rgba(0, 0, 0, 0.5);
     margin: auto auto;

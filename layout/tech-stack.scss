@@ -135,5 +135,8 @@
 .tech-stack-gallery__image {
   width: 8vw;
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 }
