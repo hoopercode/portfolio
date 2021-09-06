@@ -496,11 +496,14 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 15px;
+    align-items: center;
+    justify-content: center;
   }
 
   .tech-stack-gallery__image {
     width: 8vw;
     height: auto;
+    display: flex;
   }
 }
 .my-work {
@@ -739,7 +742,7 @@ footer {
   }
 }
 .contact-me {
-  height: 150vh;
+  height: 70vh;
 }
 
 .contact-me h2 {
@@ -805,7 +808,7 @@ footer {
 
 @media screen and (min-width: 768px) {
   .contact-me {
-    height: 150vh;
+    height: 70vh;
   }
 
   .contact-me h2 {
@@ -818,10 +821,6 @@ footer {
     font-family: "Tenor Sans", sans-serif;
     margin-bottom: 40px;
     text-align: center;
-  }
-
-  a .contact-me__email {
-    color: white;
   }
 
   .form-box {
@@ -1037,5 +1036,160 @@ footer {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+}
+.contact-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  height: 150vh;
+}
+
+.contact-details h2 {
+  padding-top: 80px;
+  color: white;
+  font-size: 25px;
+  font-family: "Tenor Sans", sans-serif;
+  margin-bottom: 10px;
+  width: 90vw;
+  text-align: center;
+}
+
+.contact-details a {
+  color: white;
+  font-family: "Archivo Narrow", cursive;
+  font-size: 20px;
+  width: 90vw;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.contact-details p {
+  color: white;
+  font-family: "Archivo Narrow", cursive;
+  font-size: 20px;
+  width: 90vw;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.contact-images {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .contact-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+
+  .contact-details h2 {
+    padding-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 10px;
+    width: 80vw;
+    text-align: center;
+  }
+
+  .contact-details a {
+    color: white;
+    font-family: "Archivo Narrow", cursive;
+    font-size: 25px;
+    width: 80vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  .contact-details p {
+    color: white;
+    font-family: "Archivo Narrow", cursive;
+    font-size: 25px;
+    width: 80vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+  }
+
+  .contact-images {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+
+  .contact-details h2 {
+    padding-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 10px;
+    width: 80vw;
+    text-align: center;
+  }
+
+  .contact-details a {
+    color: white;
+    font-family: "Archivo Narrow", cursive;
+    font-size: 30px;
+    width: 80vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  .contact-details p {
+    color: white;
+    font-family: "Archivo Narrow", cursive;
+    font-size: 30px;
+    width: 80vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+  }
+
+  .contact-images {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

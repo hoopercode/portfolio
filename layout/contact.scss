@@ -1,0 +1,159 @@
+@use "../base/abstracts" as *;
+
+.contact-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  height: 150vh;
+}
+
+.contact-details h2 {
+  padding-top: 80px;
+  color: white;
+  font-size: 25px;
+  font-family: $font-header;
+  margin-bottom: 10px;
+  width: 90vw;
+  text-align: center;
+}
+
+.contact-details a {
+  color: white;
+  font-family: $font-body;
+  font-size: 20px;
+  width: 90vw;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.contact-details p {
+  color: white;
+  font-family: $font-body;
+  font-size: 20px;
+  width: 90vw;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+.contact-images {
+  width: 90vw;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+//--------------------------------------------------------------
+//settings for ipad
+@media screen and (min-width: 480px) {
+
+.contact-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  height: 150vh;
+}
+
+.contact-details h2 {
+  padding-top: 80px;
+  color: white;
+  font-size: 30px;
+  font-family: $font-header;
+  margin-bottom: 10px;
+  width: 80vw;
+  text-align: center;
+}
+
+.contact-details a {
+  color: white;
+  font-family: $font-body;
+  font-size: 25px;
+  width: 80vw;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.contact-details p {
+    color: white;
+    font-family: $font-body;
+    font-size: 25px;
+    width: 80vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+  }
+  .contact-images {
+    width: 80vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+}
+
+//--------------------------------------------------------------
+//settings for desktop
+@media screen and (min-width: 768px) {
+
+  .contact-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+  
+  .contact-details h2 {
+    padding-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: $font-header;
+    margin-bottom: 10px;
+    width: 80vw;
+    text-align: center;
+  }
+  
+  .contact-details a {
+    color: white;
+    font-family: $font-body;
+    font-size: 30px;
+    width: 80vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  .contact-details p {
+      color: white;
+      font-family: $font-body;
+      font-size: 30px;
+      width: 80vw;
+      line-height: 1.5;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-bottom: 20px;
+    }
+    .contact-images {
+      width: 80vw;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+    }
+  }
