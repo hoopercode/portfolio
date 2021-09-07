@@ -19,7 +19,7 @@ h2 {
   font-family: "Tenor Sans", sans-serif;
 }
 
-.navigation {
+.container {
   height: auto;
   padding: 0 40px;
   display: none;
@@ -45,7 +45,7 @@ h2 {
   padding-left: 25px;
 }
 
-.navigation {
+.container {
   height: auto;
   padding: 0 40px;
   display: none;
@@ -71,7 +71,7 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
-  .navigation {
+  .container {
     height: auto;
     padding: 0 40px;
     display: flex;
@@ -92,8 +92,23 @@ h2 {
     color: white;
   }
 
+  .nav__item:hover {
+    color: black;
+    cursor: pointer;
+  }
+
   .nav__button {
     padding-left: 25px;
+  }
+
+  .hamburger {
+    background: white;
+    height: 100px;
+    width: auto;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
   }
 }
 .heading {
@@ -137,7 +152,7 @@ h2 {
   .heading {
     padding-top: 50px;
     position: relative;
-    top: 50px;
+    top: 80px;
   }
 
   .heading__big {
@@ -202,9 +217,11 @@ h2 {
     bottom: 0px;
   }
 
-  .scroll-arrows img {
-    margin-left: auto;
-    margin-right: auto;
+  .scroll-arrows {
+    width: 12vw;
+    height: auto;
+    margin-bottom: 2vh;
+    margin-top: 13vh;
   }
 }
 @media screen and (min-width: 480px) {
@@ -232,10 +249,11 @@ h2 {
     bottom: 0px;
   }
 
-  .scroll-down img {
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
+  .scroll-arrows {
+    width: 7vw;
+    height: auto;
+    margin-bottom: 2vh;
+    margin-top: 13vh;
   }
 }
 @media screen and (min-width: 768px) {
@@ -301,6 +319,7 @@ footer {
   margin-bottom: 40px;
   width: 90vw;
   text-align: center;
+  text-decoration: underline;
 }
 
 .about-me__blurb {
@@ -339,6 +358,7 @@ footer {
     margin-bottom: 40px;
     width: 80vw;
     text-align: center;
+    text-decoration: underline;
   }
 
   .about-me__blurb {
@@ -377,6 +397,7 @@ footer {
     margin-bottom: 40px;
     width: 55vw;
     text-align: center;
+    text-decoration: underline;
   }
 
   .about-me__blurb {
@@ -404,6 +425,7 @@ footer {
   font-family: "Tenor Sans", sans-serif;
   width: 90vw;
   text-align: center;
+  text-decoration: underline;
 }
 
 .tech-stack__blurb {
@@ -436,7 +458,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 150vh;
+    height: 100vh;
   }
 
   .tech-stack h2 {
@@ -446,6 +468,7 @@ footer {
     font-family: "Tenor Sans", sans-serif;
     width: 80vw;
     text-align: center;
+    text-decoration: underline;
   }
 
   .tech-stack__blurb {
@@ -487,6 +510,7 @@ footer {
     font-family: "Tenor Sans", sans-serif;
     width: 55vw;
     text-align: center;
+    text-decoration: underline;
   }
 
   .tech-stack__blurb {
@@ -530,6 +554,7 @@ footer {
   font-family: "Tenor Sans", sans-serif;
   width: 90vw;
   text-align: center;
+  text-decoration: underline;
 }
 
 .my-work__blurb {
@@ -550,6 +575,8 @@ footer {
   gap: 10px 10px;
   grid-auto-flow: row;
   width: 90vw;
+  align-items: center;
+  justify-items: center;
 }
 
 .one {
@@ -584,11 +611,15 @@ footer {
   border: 2px white solid;
 }
 
-.four {
+.five {
   grid-area: 3/1/4/3;
 }
 
-.four img {
+.six {
+  grid-area: 4/1/5/3;
+}
+
+.six img {
   object-fit: scale-down;
   height: 100%;
   max-width: 100%;
@@ -612,6 +643,7 @@ footer {
     font-family: "Tenor Sans", sans-serif;
     width: 80vw;
     text-align: center;
+    text-decoration: underline;
   }
 
   .my-work__blurb {
@@ -666,11 +698,15 @@ footer {
     border: 2px white solid;
   }
 
-  .four {
+  .five {
     grid-area: 3/1/4/3;
   }
 
-  .four img {
+  .six {
+    grid-area: 4/1/5/3;
+  }
+
+  .six img {
     object-fit: scale-down;
     height: 100%;
     max-width: 100%;
@@ -694,6 +730,7 @@ footer {
     font-family: "Tenor Sans", sans-serif;
     width: 55vw;
     text-align: center;
+    text-decoration: underline;
   }
 
   .my-work__blurb {
@@ -748,6 +785,21 @@ footer {
     border: 2px white solid;
     width: 55vw;
   }
+
+  .five {
+    grid-area: 3/1/4/3;
+  }
+
+  .six {
+    grid-area: 4/1/5/3;
+  }
+
+  .six img {
+    object-fit: scale-down;
+    height: 100%;
+    max-width: 100%;
+    padding-top: 10px;
+  }
 }
 .contact-me {
   height: 70vh;
@@ -763,6 +815,7 @@ footer {
   font-family: "Tenor Sans", sans-serif;
   margin-bottom: 40px;
   text-align: center;
+  text-decoration: underline;
 }
 
 .form-box {
@@ -829,6 +882,7 @@ footer {
     font-family: "Tenor Sans", sans-serif;
     margin-bottom: 40px;
     text-align: center;
+    text-decoration: underline;
   }
 
   .form-box {
@@ -872,180 +926,6 @@ footer {
     margin: 20px 0px;
   }
 }
-@media screen and (max-width: 480px) {
-  body {
-    background-color: black;
-  }
-
-  .project_blurb {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: black;
-    height: 150vh;
-  }
-
-  .bgpopup {
-    background: black;
-    height: 150vh;
-    width: 100%;
-  }
-
-  .bgpopup_img {
-    width: 100vw;
-    opacity: 0.5;
-  }
-
-  .project_blurb_button {
-    background-color: deepskyblue;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 33vw;
-    font-size: 18px;
-    padding: 10px;
-    margin: 20px 0px;
-  }
-
-  .project_blurb_h2 {
-    padding-top: 100px;
-    color: white;
-    font-size: 30px;
-    font-family: "Tenor Sans", sans-serif;
-    margin-bottom: 40px;
-    width: 90vw;
-    text-align: center;
-  }
-
-  .project_blurb_p {
-    color: white;
-    font-size: 20px;
-    width: 90vw;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-}
-@media screen and (min-width: 480px) {
-  body {
-    background-color: black;
-  }
-
-  .project_blurb {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: black;
-    height: 150vh;
-  }
-
-  .bgpopup {
-    background: black;
-    height: 150vh;
-    width: 100%;
-  }
-
-  .bgpopup_img {
-    width: 100vw;
-    opacity: 0.5;
-  }
-
-  .project_blurb_button {
-    background-color: deepskyblue;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 33vw;
-    font-size: 18px;
-    padding: 10px;
-    margin: 20px 0px;
-  }
-
-  .project_blurb_h2 {
-    padding-top: 100px;
-    color: white;
-    font-size: 30px;
-    font-family: "Tenor Sans", sans-serif;
-    margin-bottom: 40px;
-    width: 90vw;
-    text-align: center;
-  }
-
-  .project_blurb_p {
-    color: white;
-    font-size: 20px;
-    width: 90vw;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-}
-@media screen and (min-width: 768px) {
-  body {
-    background-color: black;
-  }
-
-  .project_blurb {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: black;
-    height: 150vh;
-  }
-
-  .bgpopup {
-    background: black;
-    height: 150vh;
-    width: 100%;
-    opacity: 0.5;
-  }
-
-  .bgpopup_img {
-    width: 100vw;
-  }
-
-  .project_blurb_button {
-    background-color: deepskyblue;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 33vw;
-    font-size: 18px;
-    padding: 10px;
-    margin: 20px 0px;
-  }
-
-  .project_blurb_h2 {
-    padding-top: 100px;
-    color: white;
-    font-size: 30px;
-    font-family: "Tenor Sans", sans-serif;
-    margin-bottom: 40px;
-    width: 90vw;
-    text-align: center;
-  }
-
-  .project_blurb_p {
-    color: white;
-    font-size: 20px;
-    width: 90vw;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-}
 .contact-details {
   display: flex;
   justify-content: flex-start;
@@ -1064,6 +944,7 @@ footer {
   margin-bottom: 10px;
   width: 90vw;
   text-align: center;
+  text-decoration: underline;
 }
 
 .contact-details a {
@@ -1116,6 +997,7 @@ footer {
     margin-bottom: 10px;
     width: 80vw;
     text-align: center;
+    text-decoration: underline;
   }
 
   .contact-details a {
@@ -1168,6 +1050,7 @@ footer {
     margin-bottom: 10px;
     width: 80vw;
     text-align: center;
+    text-decoration: underline;
   }
 
   .contact-details a {
