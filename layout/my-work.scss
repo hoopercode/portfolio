@@ -19,6 +19,7 @@
     font-family: $font-header;
     width: 90vw;
     text-align: center;
+    text-decoration: underline;
   }
 
 
@@ -42,6 +43,8 @@
     gap: 10px 10px;
     grid-auto-flow: row;
     width: 90vw;
+    align-items: center;
+    justify-items: center;
   }
   
   .one { 
@@ -75,15 +78,20 @@
     
        }
 
-    .four { grid-area: 3 / 1 / 4 / 3; }
+  .five { grid-area: 3 / 1 / 4 / 3; }
 
-    .four img {
+  .five button {
+  
+  }
+
+  .six { grid-area: 4 / 1 / 5 / 3; }
+
+  .six img {
       object-fit: scale-down;
       height: 100%;
       max-width: 100%;
       padding-top: 10px;
-    }
-
+  }
 //----------------------------------------------------------------------------------------------//
 //settings for ipad
 
@@ -107,6 +115,7 @@
     font-family: $font-header;
     width: 80vw;
     text-align: center;
+    text-decoration: underline;
   }
 
 
@@ -198,6 +207,7 @@
     font-family: $font-header;
     width: 55vw;
     text-align: center;
+    text-decoration: underline;
   }
 
 
