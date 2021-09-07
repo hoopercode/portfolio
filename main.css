@@ -1093,7 +1093,7 @@ footer {
 .contact-images {
   width: 90vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -1197,7 +1197,7 @@ footer {
   .contact-images {
     width: 80vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
 }
