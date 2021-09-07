@@ -81,7 +81,15 @@
   .five { grid-area: 3 / 1 / 4 / 3; }
 
   .five button {
-  
+    background-color: deepskyblue;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 33vw;
+		font-size: 18px;
+		padding: 10px;
+		margin: 20px 0px;
   }
 
   .six { grid-area: 4 / 1 / 5 / 3; }

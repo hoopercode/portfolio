@@ -615,6 +615,18 @@ footer {
   grid-area: 3/1/4/3;
 }
 
+.five button {
+  background-color: deepskyblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 33vw;
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
 .six {
   grid-area: 4/1/5/3;
 }
@@ -698,15 +710,11 @@ footer {
     border: 2px white solid;
   }
 
-  .five {
+  .four {
     grid-area: 3/1/4/3;
   }
 
-  .six {
-    grid-area: 4/1/5/3;
-  }
-
-  .six img {
+  .four img {
     object-fit: scale-down;
     height: 100%;
     max-width: 100%;
@@ -784,21 +792,6 @@ footer {
     text-align: center;
     border: 2px white solid;
     width: 55vw;
-  }
-
-  .five {
-    grid-area: 3/1/4/3;
-  }
-
-  .six {
-    grid-area: 4/1/5/3;
-  }
-
-  .six img {
-    object-fit: scale-down;
-    height: 100%;
-    max-width: 100%;
-    padding-top: 10px;
   }
 }
 .contact-me {
@@ -1082,5 +1075,176 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+  }
+
+  .project_blurb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+
+  .bgpopup {
+    background: black;
+    height: 150vh;
+    width: 100%;
+  }
+
+  .bgpopup_img {
+    width: 100vw;
+  }
+
+  .project_blurb_button {
+    background-color: deepskyblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 33vw;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0px;
+  }
+
+  .project_blurb_h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 40px;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .project_blurb_p {
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: black;
+  }
+
+  .project_blurb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+
+  .bgpopup {
+    background: black;
+    height: 150vh;
+    width: 100%;
+  }
+
+  .bgpopup_img {
+    width: 100vw;
+  }
+
+  .project_blurb_button {
+    background-color: deepskyblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 33vw;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0px;
+  }
+
+  .project_blurb_h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 40px;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .project_blurb_p {
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: black;
+  }
+
+  .project_blurb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 150vh;
+  }
+
+  .bgpopup {
+    background: black;
+    height: 150vh;
+    width: 100%;
+  }
+
+  .bgpopup_img {
+    width: 100vw;
+  }
+
+  .project_blurb_button {
+    background-color: deepskyblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 33vw;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0px;
+  }
+
+  .project_blurb_h2 {
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 40px;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .project_blurb_p {
+    color: white;
+    font-size: 20px;
+    width: 90vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }

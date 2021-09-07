@@ -1,4 +1,4 @@
-@use "/portfolio-working/base/abstracts.scss";
+@use "../base/abstracts.scss" as *;
 
 //----------------------------------------------------------------------------------------------//
 //settings for mobile
@@ -25,7 +25,6 @@
   }
   .bgpopup_img {
     width: 100vw;
-    opacity: 0.5;
   }
 
   
@@ -87,7 +86,6 @@
   }
   .bgpopup_img {
     width: 100vw;
-    opacity: 0.5;
   }
   
   .project_blurb_button {
@@ -146,7 +144,7 @@
     background: black;
     height: 150vh;
     width: 100%;
-    opacity: 0.5;
+    
   }
   .bgpopup_img {
     width: 100vw;
