@@ -203,12 +203,12 @@ h2 {
   }
 
   .mainbg {
-    background: black;
+    background: #3D4849;
     height: 100vh;
   }
 
   .blendbg {
-    background: linear-gradient(#010C06, #000000);
+    background: linear-gradient(#010C06, #3D4849);
     height: 100vh;
   }
 
@@ -241,12 +241,12 @@ h2 {
   }
 
   .mainbg {
-    background: black;
+    background: #3D4849;
     height: 100vh;
   }
 
   .blendbg {
-    background: linear-gradient(#010C06, #000000);
+    background: linear-gradient(#010C06, #3D4849);
     height: 100vh;
   }
 
@@ -278,12 +278,12 @@ h2 {
   }
 
   .mainbg {
-    background: black;
+    background: #3D4849;
     height: 100vh;
   }
 
   .blendbg {
-    background: linear-gradient(#010C07, #000000);
+    background: linear-gradient(#010C07, #3D4849);
     height: 100vh;
   }
 
@@ -424,7 +424,7 @@ footer {
   }
 }
 .tech-stack {
-  background-color: black;
+  background-color: #3D4849;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -467,7 +467,7 @@ footer {
 
 @media screen and (min-width: 480px) {
   .tech-stack {
-    background-color: black;
+    background-color: #3D4849;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -509,7 +509,7 @@ footer {
 }
 @media screen and (min-width: 768px) {
   .tech-stack {
-    background-color: black;
+    background-color: #3D4849;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -557,7 +557,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  background-color: black;
+  background-color: #3D4849;
   height: 140vh;
 }
 
@@ -658,7 +658,7 @@ footer {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color: black;
+    background-color: #3D4849;
     height: 140vh;
   }
 
@@ -741,7 +741,7 @@ footer {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color: black;
+    background-color: #3D4849;
     height: 150vh;
   }
 
@@ -809,7 +809,7 @@ footer {
   }
 }
 .contact-me {
-  height: 70vh;
+  height: 100vh;
 }
 
 .contact-me h2 {
@@ -828,7 +828,7 @@ footer {
 .form-box {
   width: 90vw;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #3D4849 0, 0, 0, 0.5;
   margin: auto auto;
   padding: 40px;
   border-radius: 5px;
@@ -893,7 +893,7 @@ footer {
   }
 
   .form-box {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #3D4849 0, 0, 0, 0.5;
     margin: auto auto;
     border-radius: 5px;
     box-shadow: 0 0 10px #000;
@@ -939,13 +939,13 @@ footer {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: black;
+  background-color: #3D4849;
   height: 150vh;
   margin-top: 40px;
 }
 
 .contact-details h2 {
-  padding-top: 80px;
+  padding-top: 20px;
   color: white;
   font-size: 25px;
   font-family: "Tenor Sans", sans-serif;
@@ -1006,7 +1006,7 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: black;
+    background-color: #3D4849;
     height: 150vh;
   }
 
@@ -1073,7 +1073,7 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: black;
+    background-color: #3D4849;
     height: 150vh;
   }
 
@@ -1133,7 +1133,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   body {
-    background-color: black;
+    background-color: #3D4849;
   }
 
   .project_blurb {
@@ -1142,7 +1142,7 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: black;
+    background-color: #3D4849;
     height: 150vh;
   }
 
@@ -1190,7 +1190,7 @@ footer {
 }
 @media screen and (min-width: 480px) {
   body {
-    background-color: black;
+    background-color: #3D4849;
   }
 
   .project_blurb {
@@ -1199,7 +1199,7 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: black;
+    background-color: #3D4849;
     height: 150vh;
   }
 
@@ -1256,12 +1256,12 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: black;
+    background-color: #3D4849;
     height: 150vh;
   }
 
   .bgpopup {
-    background: black;
+    background: #3D4849;
     height: 150vh;
     width: 100%;
   }
