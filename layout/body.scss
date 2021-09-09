@@ -101,12 +101,13 @@
   }
 
   .mainbg {
+    display: none;
     background: #3D4849;
     height: 100vh;
   }
 
   .blendbg {
-    background: linear-gradient(#010C07, #3D4849);
+    background: linear-gradient(#01130D, #3D4849);
     height: 100vh;
   }
 

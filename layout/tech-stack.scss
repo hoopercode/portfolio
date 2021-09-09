@@ -8,12 +8,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    height: 100vh;
   }
   
   .tech-stack h2 {
     padding-top: 10px;
-    color: white;
+    color: #F5F5F5;
     font-size: 30px;
     font-family: $font-header;
     width: 90vw;
@@ -21,7 +21,7 @@
     text-decoration: underline;
   }
   .tech-stack__blurb {
-    color: white;
+    color: #F5F5F5;
     font-size: 20px;
     width: 90vw;
     line-height: 1.5;
@@ -62,7 +62,7 @@
   
   .tech-stack h2 {
     margin-top: 100px;
-    color: white;
+    color: #F5F5F5;
     font-size: 40px;
     font-family: $font-header;
     width: 80vw;
@@ -70,7 +70,7 @@
     text-decoration: underline;
   }
   .tech-stack__blurb {
-    color: white;
+    color: #F5F5F5;
     font-size: 25px;
     width: 80vw;
     line-height: 1.5;
@@ -110,7 +110,7 @@
 
 .tech-stack h2 {
   padding-top: 100px;
-  color: white;
+  color: #F5F5F5;
   font-size: 60px;
   font-family: $font-header;
   width: 55vw;
@@ -118,7 +118,7 @@
   text-decoration: underline;
 }
 .tech-stack__blurb {
-  color: white;
+  color: #F5F5F5;
   font-size: 30px;
   width: 55vw;
   line-height: 1.5;
@@ -133,14 +133,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
-  align-items: center;
-  justify-content: center;
 }
 
 .tech-stack-gallery__image {
   width: 8vw;
   height: auto;
-  display: flex;
+  justify-self: center;
   
 }
 }

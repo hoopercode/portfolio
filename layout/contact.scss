@@ -13,7 +13,7 @@
 
 .contact-details h2 {
   padding-top: 20px;
-  color: white;
+  color: #F5F5F5;
   font-size: 25px;
   font-family: $font-header;
   margin-top: 20px;
@@ -24,7 +24,7 @@
 }
 
 .contact-details a {
-  color: white;
+  color: #F5F5F5;
   font-family: $font-body;
   font-size: 20px;
   width: 90vw;
@@ -36,7 +36,7 @@
 }
 
 .contact-details p {
-  color: white;
+  color: #F5F5F5;
   font-family: $font-body;
   font-size: 20px;
   width: 90vw;
@@ -47,7 +47,7 @@
   padding-bottom: 20px;
 }
 .contact-images {
-  width: 90vw;
+  width: 30vw;
   display: flex;
   justify-content:center;
   align-items:center;
@@ -80,7 +80,7 @@
 
 .contact-details h2 {
   padding-top: 80px;
-  color: white;
+  color: #F5F5F5;
   font-size: 30px;
   font-family: $font-header;
   margin-bottom: 10px;
@@ -90,7 +90,7 @@
 }
 
 .contact-details a {
-  color: white;
+  color: #F5F5F5;
   font-family: $font-body;
   font-size: 25px;
   width: 80vw;
@@ -101,7 +101,7 @@
   text-decoration: underline;
 }
 .contact-details p {
-    color: white;
+    color: #F5F5F5;
     font-family: $font-body;
     font-size: 25px;
     width: 80vw;
@@ -112,7 +112,7 @@
     padding-bottom: 20px;
   }
   .contact-images {
-    width: 80vw;
+    width: 30vw;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -148,7 +148,7 @@
   
   .contact-details h2 {
     padding-top: 80px;
-    color: white;
+    color: #F5F5F5;
     font-size: 30px;
     font-family: $font-header;
     margin-bottom: 10px;
@@ -158,7 +158,7 @@
   }
   
   .contact-details a {
-    color: white;
+    color: #F5F5F5;
     font-family: $font-body;
     font-size: 30px;
     width: 80vw;
@@ -169,7 +169,7 @@
     text-decoration: underline;
   }
   .contact-details p {
-      color: white;
+      color: #F5F5F5;
       font-family: $font-body;
       font-size: 30px;
       width: 80vw;
@@ -180,9 +180,9 @@
       padding-bottom: 20px;
     }
     .contact-images {
-      width: 80vw;
+      width: 20vw;
       display: flex;
-      justify-content:center;
+      justify-content:space-between;
       align-items:center;
     }
     .linked-in {

@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="container">
-        <img src="./assets/Logo.png" alt="logo">
+        <img class="container__logo" src="./assets/LogoWhite.png" alt="logo">
           <div class="nav">
           <a class="nav__item" href="#about-me">About Me</a>
           <a class="nav__item" href="#tech-stack">My Skills</a>
@@ -38,19 +38,19 @@
 
       <div class="tech-stack-gallery">
         <img class="tech-stack-gallery__image" src="./assets/css-3 (1).svg" alt="">
-        <img class="tech-stack-gallery__image" src="./assets/css-3 (1).svg" alt="">
-        <img class="tech-stack-gallery__image " src="./assets/css-3 (1).svg" alt="">
-        <img class="tech-stack-gallery__image" src="./assets/css-3 (1).svg" alt="">
-        <img class="tech-stack-gallery__image" src="./assets/css-3 (1).svg" alt="">
-        <img class="tech-stack-gallery__image" src="./assets/css-3 (1).svg" alt="">
-        <img class="tech-stack-gallery__image " src="./assets/css-3 (1).svg" alt="">
+        <img class="tech-stack-gallery__image" src="./assets/html5.svg" alt="">
+        <img class="tech-stack-gallery__image " src="./assets/javascript-1.svg" alt="">
+        <img class="tech-stack-gallery__image" src="./assets/react-2.svg"" alt="">
+        <img class="tech-stack-gallery__image" src="./assets/react-2.svg"" alt="">
+        <img class="tech-stack-gallery__image" src="./assets/javascript-1.svg" alt="">
+        <img class="tech-stack-gallery__image " src="./assets/html5.svg" alt="">
         <img class="tech-stack-gallery__image" src="./assets/css-3 (1).svg" alt="">
       </div>
       <a href="#my-work"><img class="scroll-arrows" src="/assets/arrows.png" alt=""></a>
 </section>
 <section class="mainbg my-work">
     <h2 id="my-work">My Work</h2>
-    <p class="my-work__blurb">This is where I display what work I have been working on.  Clicking on images will open new tab to view full work.</p>
+    <p class="my-work__blurb">This is where I display work in a scrolling gallery style</p>
     
     <div class="work-grid">
       <div class="one"><img src="/assets/screen-large.jpg" alt=""></div>
@@ -60,7 +60,7 @@
       <div class="five"><a href="/my-work-popup.html"><button class="project_blurb_button">View Project</button></a></div>
       <div class="six"><img src="/assets/lines-small.png" alt=""></div>
     </div>
-    <a href="#my-contact-me"><img class="scroll-arrows" src="/assets/arrows.png" alt=""></a>
+    <a href="#contact-me"><img class="scroll-arrows" src="/assets/arrows.png" alt=""></a>
 </section>
 
 <section class="mainbg contact-me">
@@ -68,7 +68,7 @@
     <div class="form-box">
         <input placeholder="Your Name" type="text">
         <input placeholder="Your Email" type="text">
-        <input class="text-space" placeholder="Message - Need to make this bigger"textarea">
+        <input class="text-space" type=text placeholder="Message - Need to make this bigger"textarea">
         <button>Send</button>
       </div>
     </div>
@@ -78,9 +78,11 @@
   <a class =contact-me__email" href="mailto:hooper.rob@gmai.com">hooper.rob@gmail.com</a>
   <p class ="contact-me__phone">07796235237</p>
   <div class="contact-images">
-    <div><img class="linked-in" src="/assets/linkedin-icon.svg" alt=""></div>
-    <div><img class="github"src="/assets/githubfinal.svg" alt=""></div>
-    </div>
+    <a class="linked-in" href="https://www.linkedin.com/in/rob-hooper-74039519/"><img  src="/assets/linkedin-icon.svg" alt=""></a>
+    <a class="github" href="https://github.com/hoopercode"><img src="/assets/githubfinal.svg" alt=""></a>
+  </div>
+
+
 </section>
 <script src="/portfolio-working/js/hamburger.js"></script>
 </body>

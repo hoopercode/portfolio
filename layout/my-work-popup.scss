@@ -19,7 +19,7 @@
     height: 150vh;
   }
   .bgpopup {
-    background: black;
+    background: #3D4849;
     height: 150vh;
     width: 100%;
   }
@@ -31,7 +31,7 @@
   
   .project_blurb_button {
 		background-color: deepskyblue;
-		color: #fff;
+		color: #F5F5F5;
 		border: none;
 		border-radius: 5px;
 		cursor: pointer;
@@ -43,7 +43,7 @@
 
   .project_blurb_h2 {
     padding-top: 100px;
-    color: white;
+    color: #F5F5F5;
     font-size: 30px;
     font-family: $font-header;
     margin-bottom: 40px;
@@ -52,7 +52,7 @@
   }
 
   .project_blurb_p {
-    color: white;
+    color: #F5F5F5;
     font-size: 20px;
     width: 90vw;
     line-height: 1.5;
@@ -80,7 +80,7 @@
     height: 150vh;
   }
   .bgpopup {
-    background: black;
+    background: #3D4849;
     height: 150vh;
     width: 100%;
   }
@@ -90,7 +90,7 @@
   
   .project_blurb_button {
 		background-color: deepskyblue;
-		color: #fff;
+		color: #F5F5F5;
 		border: none;
 		border-radius: 5px;
 		cursor: pointer;
@@ -102,7 +102,7 @@
 
   .project_blurb_h2 {
     padding-top: 100px;
-    color: white;
+    color: #F5F5F5;
     font-size: 30px;
     font-family: $font-header;
     margin-bottom: 40px;
@@ -111,7 +111,7 @@
   }
 
   .project_blurb_p {
-    color: white;
+    color: #F5F5F5;
     font-size: 20px;
     width: 90vw;
     line-height: 1.5;
@@ -128,7 +128,7 @@
 @media screen and (min-width: 768px) {
 
   body {
-    background-color: black;
+    background-color: #3D4849;
   }
 
   .project_blurb {
@@ -151,7 +151,7 @@
   }
   .project_blurb_button {
 		background-color: deepskyblue;
-		color: #fff;
+		color: #F5F5F5;
 		border: none;
 		border-radius: 5px;
 		cursor: pointer;
@@ -163,7 +163,7 @@
 
   .project_blurb_h2 {
     padding-top: 100px;
-    color: white;
+    color: #F5F5F5;
     font-size: 30px;
     font-family: $font-header;
     margin-bottom: 40px;
@@ -172,7 +172,7 @@
   }
 
   .project_blurb_p {
-    color: white;
+    color: #F5F5F5;
     font-size: 20px;
     width: 90vw;
     line-height: 1.5;
@@ -180,5 +180,4 @@
     margin-top: 40px;
     margin-bottom: 40px;
   }
-
 }
